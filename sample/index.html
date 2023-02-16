@@ -1,0 +1,148 @@
+<!DOCTYPE html><!--
+	Copyright (c) 2014-2023, CKSource Holding sp. z o.o. All rights reserved.
+	This file is licensed under the terms of the MIT License (see LICENSE.md).
+-->
+
+<html lang="en" dir="ltr">
+
+<head>
+  <title>CKEditor 5 – FAD Admin</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="https://c.cksource.com/a/1/logos/ckeditor5.png">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body data-editor="ClassicEditor" data-collaboration="false" data-revision-history="false">
+  <header>
+    <div class="centered">
+      <h1><a href="https://my.clevelandclinic.org/staff" target="_blank" rel="noopener noreferrer"><img
+            src="img/logo-ccf.svg" alt="Cleveland Clinic Logo" /></a></h1>
+      <nav>
+        <ul>
+          <li><a href="https://ckeditor.com/docs/ckeditor5/" target="_blank" rel="noopener noreferrer">Documentation</a>
+          </li>
+          <li><a href="https://ckeditor.com/" target="_blank" rel="noopener noreferrer">Website</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="message">
+      <div class="centered">
+        <h1>Edit Awards and Honors</h1>
+        <p>Use the editor below to add your awards and honors. Alternatively, you may copy or paste from Word or Google
+          Docs. Here is a sample profile, copy and pasted from Dr. Mark Gillinov <a
+            href="https://my.clevelandclinic.org/staff/2350-a-marc-gillinov#education-content" target="_blank">Dr. Mark
+            Gillinov</a>.</p>
+      </div>
+    </div>
+    <div class="centered">
+      <div class="row row-editor">
+        <div class="editor-container">
+          <div class="editor">
+            <h2>Education & Professional Highlights</h2>
+            <h3>Appointed</h3>
+            <p>1997</p>
+            <h2>Education & Fellowships</h2>
+            <h3>Fellowship - Johns Hopkins Hospital</h3>
+            <p>Thoracic Surgery</p>
+            <p>Baltimore, MD USA</p>
+            <p>1997</p>
+            <h3>Residency - Johns Hopkins Hospital</h3>
+            <p>Thoracic Surgery</p>
+            <p>Baltimore, MD USA</p>
+            <p>1996</p>
+            <h3>Residency - Johns Hopkins Hospital</h3>
+            <p>General Surgery</p>
+            <p>Baltimore, MD USA</p>
+            <p>1994</p>
+            <h3>Internship - Johns Hopkins Hospital</h3>
+            <p>General Surgery</p>
+            <p>Baltimore, MD USA</p>
+            <p>1989</p>
+            <h3>Medical Education - Johns Hopkins University School of Medicine</h3>
+            <p>Baltimore, MD USA</p>
+            <p>1988</p>
+            <h3>Undergraduate - Yale University</h3>
+            <p>New Haven, CT USA</p>
+            <p>1984</p>
+            <h2>Professional Highlights</h2>
+            <ul>
+              <li><a href="https://www.amazon.com/Heart-411-Guide-Health-Youll/dp/0307719901" target="_blank">Co-author
+                  of "Heart 411: The Only Heart Guide You Will Ever Need."</a></li>
+              <li>Judith Dion Pyle Chair in Heart Valve Research</li>
+              <li>Cleveland Clinic Innovator Award for New Techniques in Mitral Valve Repair</li>
+              <li>Dr. Gillinov has one of the world's largest practices in robotic and minimally invasive mitral valve
+                repair surgery</li>
+            </ul>
+            <h2>Certifications</h2>
+            <ul>
+              <li>Thoracic Surgery - Thoracic and Cardiac Surgery</li>
+            </ul>
+            <h2>Specialty Interests</h2>
+            <p>Mitral valve repair, robotic mitral valve surgery, robotic heart surgery, aortic valve replacement,
+              minimally invasive heart surgery, heart valve surgery, heart valve repair, atrial fibrillation</p>
+            <h2>Awards & Honors</h2>
+            <ul>
+              <li>2014 Best Doctors, Cleveland Magazine</li>
+              <li>2008 - present The Judith Dion Pyle Chair in Heart Valve Research</li>
+              <li>2007 - present Co-Principal Investigator, NIH Network for Cardiothoracic Surgical Investigations</li>
+              <li>2005 - present Principal Investigator, Atrial Fibrillation Innovation Center</li>
+              <li>2005, 2007 Cleveland Clinic Innovator Award for New Techniques in Mitral Valve Repair</li>
+            </ul>
+            <h2>Innovations & Patents</h2>
+            <ul>
+              <li>Dr. Gillinov has been integral to the development of several new technologies in the management of
+                heart disease. These include:Percutaneous mitral valve repair</li>
+              <li>Automated creation of artificial chords for minimally invasive surgical mitral valve repair</li>
+              <li>Left atrial appendage exclusion in atrial fibrillation</li>
+              <li>Minimally invasive approaches to ablation of atrial fibrillation</li>
+              <li>Novel technologies for minimally invasive surgical drainage systems</li>
+            </ul>
+            <h2>Memberships</h2>
+            <ul>
+              <li>Key Memberships include:Member, American Association for Thoracic Surgery</li>
+              <li>Member, Society of Thoracic Surgeons</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <footer>
+    <p><a href="https://ckeditor.com/ckeditor-5/" target="_blank" rel="noopener">CKEditor 5</a>
+      – Rich text editor of tomorrow, available today
+    </p>
+    <p>Copyright © 2003-2023,
+      <a href="https://cksource.com/" target="_blank" rel="noopener">CKSource</a>
+      Holding sp. z o.o. All rights reserved.
+    </p>
+  </footer>
+  <script src="../build/ckeditor.js"></script>
+  <script>ClassicEditor
+      .create(document.querySelector('.editor'), {
+
+        licenseKey: '',
+
+
+
+      })
+      .then(editor => {
+        window.editor = editor;
+
+
+
+
+      })
+      .catch(error => {
+        console.error('Oops, something went wrong!');
+        console.error('Please, report the following error on https://github.com/ckeditor/ckeditor5/issues with the build id and the error stack trace:');
+        console.warn('Build id: s2mj9xaou009-58hm59m8n4j7');
+        console.error(error);
+      });
+  </script>
+</body>
+
+</html>
