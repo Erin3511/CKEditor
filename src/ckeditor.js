@@ -60,7 +60,7 @@ Editor.defaultConfig = {
 			'redo',
 			'|',
       'heading',
-      'alignment',
+			'|',
 			'bold',
 			'italic',
       'underline',
